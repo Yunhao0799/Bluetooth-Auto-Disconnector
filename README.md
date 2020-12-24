@@ -1,6 +1,6 @@
 # Bluetooth Auto Disconnector
 
-MacOs only
+MacOS only
 
 Simple command line script that automatically disconnect a bluetooth device.
 
@@ -16,11 +16,11 @@ powers off.
 Requieres [BluetoothConnector](https://github.com/lapfelix/BluetoothConnector) 
 to work.
 
-After that, run the Python script:
+After that, run the Python script:  
 ```python3 main.py```
 
-Giving execution permission may be requiered to run the previous command, using the following commands:
-```chmod +x main.py```
-```chmod +x check_audio_playing.sh```
+Giving execution permission may be requiered to run the previous command, using the following commands:  
+```chmod +x main.py```  
+```chmod +x check_audio_playing.sh```  
 
 Enjoy! :)
