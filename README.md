@@ -2,7 +2,7 @@
 
 MacOS only
 
-Simple command line script that automatically disconnect a bluetooth device.
+Simple command line script that automatically disconnect a bluetooth device or a bunch of them.
 
 The reason after this project is after buying my Sony WH-1000XM3 I was constantly
 forgetting to turn it off, causing battery drain.
