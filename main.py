@@ -29,15 +29,7 @@ def main():
         l = l.replace('\n', '')
         blacklisted_devices.append(l)
 
-    print(blacklisted_devices)
-    # for i in range(len(splited_bluetooth_devices)):
-    #     # if word == 'Devices':
-    #     #     first_device_found = True
 
-    #     if first_device_found:
-    #         print(splited_bluetooth_devices[i])
-
-    # print(splited_bluetooth_devices)
     while True:
         
         okay = True
@@ -58,7 +50,6 @@ def main():
 
             input_sel = int(input_sel)
 
-            # sys.exit()
         except:
             okay = False
             print("\n\033[1;31mInvalid selection, not number\033[0m\n\n")
@@ -93,7 +84,6 @@ def main():
 
                 devices_arr.pop(0)
                 i = 1
-                # print("Connected devices:")
                 for element in devices_arr:
                     mac_address_arr[i-1] = str(mac_address_arr[i-1]).replace("Address: ", '')
                     mac_address_arr[i-1] = str(mac_address_arr[i-1]).replace('    ','')
@@ -147,7 +137,6 @@ def main():
 
                             input_sel_device = int(input_sel_device)
 
-                            # sys.exit()
                         except:
                             input_is_number = False
                             print("\n\033[1;31mInvalid selection, not number\033[0m\n\n")
