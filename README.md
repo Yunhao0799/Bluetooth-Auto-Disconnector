@@ -13,7 +13,7 @@ powers off.
 
 ## Installation
 
-Requieres [BluetoothConnector](https://github.com/lapfelix/BluetoothConnector) 
+Requieres [BluetoothConnector](https://github.com/lapfelix/BluetoothConnector), I'm not the owner of it, 
 to work.
 
 After that, run the Python script:  
